@@ -11,6 +11,7 @@ namespace Team_City.Controllers
     public class ValuesController : ControllerBase
     {
         // GET api/values
+        //to test  the build run automate working or not 
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
