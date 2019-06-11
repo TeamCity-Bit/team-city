@@ -18,6 +18,7 @@ namespace Team_City.Controllers
             return new string[] { "value1", "value2" };
         }
 
+        //to test  the build run automate working or not test 2
         // GET api/values/5
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
