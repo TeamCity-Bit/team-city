@@ -21,7 +21,7 @@ namespace Team_City.Controllers
         
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get()
+        public string Get(int id)
         {
             return "value";
         }
