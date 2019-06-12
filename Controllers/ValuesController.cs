@@ -15,13 +15,13 @@ namespace Team_City.Controllers
         [HttpGet]
         public string Get()
         {
-           
+            return "Get Met";
         }
 
         
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public string Get()
         {
             return "value";
         }
