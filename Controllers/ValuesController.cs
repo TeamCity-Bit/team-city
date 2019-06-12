@@ -15,7 +15,7 @@ namespace Team_City.Controllers
         [HttpGet]
         public string Get()
         {
-            return "Get Met";
+           
         }
 
         
