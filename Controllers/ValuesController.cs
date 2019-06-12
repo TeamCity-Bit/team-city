@@ -18,7 +18,7 @@ namespace Team_City.Controllers
             return "Get Met";
         }
 
-        //to test  the build run automate working or not test 2
+        
         // GET api/values/5
         [HttpGet("{id}")]
         public string Get(int id)
