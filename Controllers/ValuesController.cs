@@ -13,15 +13,15 @@ namespace Team_City.Controllers
         // GET api/values
         //to test  the build run automate working or not 
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public string Get()
         {
-            return new string[] { "value1", "value2" };
+            return "Get Met";
         }
 
         //to test  the build run automate working or not test 2
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public string Get(int id)
         {
             return "value";
         }
